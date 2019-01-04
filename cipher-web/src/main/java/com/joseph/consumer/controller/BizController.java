@@ -18,6 +18,8 @@ public class BizController {
 
 	@RequestMapping(value = "/test")
 	public void test(int  count){
+
+
 		bizService.secondKillTest(count);
 	}
 
