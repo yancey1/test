@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.joseph.order.dao.mapper.OrderMapper">
+
+	<resultMap id="orderMap" type="com.joseph.order.domain.OrderDO">
+		<result column="order_id" property="orderId" />
+		<result column="order_sn" property="orderSn" />
+		<result column="order_name" property="orderName" />
+		<result column="goods_id" property="goodsId" />
+		<result column="goods_num" property="goodsNum" />
+	</resultMap>
+	
+	<select id="listGoods" resultMap="orderMap" parameterType="com.joseph.order.domain.OrderDO">
+		SELECT
+			order_id,
+			order_sn,
+			order_name,
+			goods_id,
+			goods_num
+		FROM
+		    cipher_order_info
+	</select>
+
+	<insert id="insertGoods" parameterType="com.joseph.order.domain.OrderDO">
+		insert into
+		cipher_order_info
+		(
+		order_id,
+		order_sn,
+		order_name,
+		goods_id,
+		goods_num)
+		VALUES
+		(
+		#{orderId},
+		#{orderSn},
+		#{orderName},
+		#{goodsId},
+		#{goodsNum}
+		)
+	</insert>
+
+	<update id="updateGoods" parameterType="com.joseph.order.domain.OrderDO">
+		UPDATE
+		cipher_order_info
+		SET
+		order_sn=#{orderSn},
+		order_name=#{orderName},
+		goods_id=#{goodsId},
+		goods_num=#{goodsNum}
+		where order_id=#{orderId}
+	</update>
+</mapper>

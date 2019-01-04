@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cipher-api" />
+        <module name="cipher-common" />
+        <module name="cipher-consumer" />
+        <module name="cipher-cosumer" />
+        <module name="cipher-monitor" />
+        <module name="cipher-mq" />
+        <module name="cipher-order" />
+        <module name="cipher-pay" />
+        <module name="cipher-provider" />
+        <module name="cipher-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cipher-api" target="1.8" />
+      <module name="cipher-common" target="1.8" />
+      <module name="cipher-consumer" target="1.8" />
+      <module name="cipher-cosumer" target="1.8" />
+      <module name="cipher-free" target="1.8" />
+      <module name="cipher-monitor" target="1.8" />
+      <module name="cipher-mq" target="1.8" />
+      <module name="cipher-order" target="1.8" />
+      <module name="cipher-pay" target="1.8" />
+      <module name="cipher-provider" target="1.8" />
+      <module name="cipher-util" target="1.8" />
+      <module name="cipher-web" target="1.8" />
+      <module name="com-test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+jdbc:
+  datasource:
+    url: jdbc:mysql://101.132.145.69:3306/test?characterEncoding\=utf-8
+    username: root
+    password: cipher6YHN5tgb__
+    driverClassName: com.mysql.jdbc.Driver
+

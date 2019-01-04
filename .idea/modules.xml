@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/cipher-api/cipher-api.iml" filepath="$PROJECT_DIR$/cipher-api/cipher-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cipher-common/cipher-common.iml" filepath="$PROJECT_DIR$/cipher-common/cipher-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cipher-free.iml" filepath="$PROJECT_DIR$/cipher-free.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cipher-monitor/cipher-monitor.iml" filepath="$PROJECT_DIR$/cipher-monitor/cipher-monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cipher-mq/cipher-mq.iml" filepath="$PROJECT_DIR$/cipher-mq/cipher-mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cipher-order/cipher-order.iml" filepath="$PROJECT_DIR$/cipher-order/cipher-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cipher-pay/cipher-pay.iml" filepath="$PROJECT_DIR$/cipher-pay/cipher-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cipher-provider/cipher-provider.iml" filepath="$PROJECT_DIR$/cipher-provider/cipher-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cipher-web/cipher-web.iml" filepath="$PROJECT_DIR$/cipher-web/cipher-web.iml" />
+    </modules>
+  </component>
+</project>
