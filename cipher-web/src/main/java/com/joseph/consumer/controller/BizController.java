@@ -19,7 +19,7 @@ public class BizController {
 	@RequestMapping(value = "/test")
 	public void test(int  count){
 
-
+		logger.info("111");
 		bizService.secondKillTest(count);
 	}
 
